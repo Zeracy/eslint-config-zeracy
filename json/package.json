@@ -1,0 +1,13 @@
+{
+  "name": "eslint-config-zeracy-json",
+  "version": "1.0.0",
+  "description": "An eslint config for my own personal projects",
+  "main": "index.js",
+  "author": "Zeracy",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "eslint": "^8.18.0",
+    "eslint-plugin-json": "^3.1.0"
+  }
+}
