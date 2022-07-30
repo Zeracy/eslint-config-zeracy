@@ -1,22 +1,27 @@
 {
   "name": "eslint-config-zeracy",
   "version": "1.0.0",
-  "description": "An eslint config for my own personal projects",
-  "main": "index.js",
-  "author": "Zeracy",
-  "license": "MIT",
   "private": false,
+  "description": "An eslint config for my own personal projects",
+  "license": "MIT",
+  "author": "Zeracy",
+  "main": "index.js",
+  "scripts": {
+    "install-dependencies": "node install-dependencies-command.js"
+  },
   "dependencies": {
     "eslint": "^8.18.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsdoc": "^39.3.3",
+    "eslint-plugin-json": "^3.1.0",
+    "eslint-plugin-jsx-a11y": "^6.6.0",
     "eslint-plugin-n": "^15.2.3",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.30.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-unicorn": "^43.0.0"
-  },
-  "scripts": {
-    "install-dependencies": "node install-dependencies-command.js"
   }
 }
