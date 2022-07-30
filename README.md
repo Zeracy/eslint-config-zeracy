@@ -7,7 +7,7 @@ This is an ESLint [Shareable Config](http://eslint.org/docs/developer-guide/shar
 ## Install
 At the moment this isn't published so it can only be installed through the git url
 ```bash
-yarn add https://github.com/Zeracy/eslint-config-zeracy
+yarn add --dev https://github.com/Zeracy/eslint-config-zeracy
 ```
 
 ## Usage
