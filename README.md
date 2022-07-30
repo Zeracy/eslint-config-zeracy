@@ -22,6 +22,7 @@ yarn add https://github.com/Zeracy/eslint-config-zeracy
      "zeracy/jsdoc/required",
      "zeracy/json",
      "zeracy/react",
+     "zeracy/typescript",
   ]
 }
 ```
