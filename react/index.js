@@ -29,7 +29,7 @@ module.exports = {
         }],
         'react/jsx-curly-spacing': [2, { when: 'never', children: { when: 'always' } }],
         'react/jsx-equals-spacing': [2, 'never'],
-        'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
+        'react/jsx-filename-extension': [1, { extensions: ['.jsx', '.tsx'] }],
         'react/jsx-first-prop-new-line': [2, 'multiline-multiprop'],
         'react/jsx-indent': [2, 4, { indentLogicalExpressions: true }],
         'react/jsx-indent-props': [2, 4],
