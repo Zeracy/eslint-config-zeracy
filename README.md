@@ -18,6 +18,7 @@ yarn add https://github.com/Zeracy/eslint-config-zeracy
 {
   "extends": [
      "zeracy",
+     "zeracy/jest",
      "zeracy/jsdoc",
      "zeracy/jsdoc/required",
      "zeracy/json",
