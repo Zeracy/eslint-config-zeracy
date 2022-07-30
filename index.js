@@ -5,17 +5,6 @@ module.exports = {
     plugins: [
         'unicorn',
     ],
-    env: {
-        'shared-node-browser': true,
-        es6: true,
-    },
-    parserOptions: {
-        ecmaVersion: 2020,
-        ecmaFeatures: {
-            jsx: true,
-        },
-        sourceType: 'module',
-    },
     rules: {
         'array-callback-return': [2, { allowImplicit: true }],
         'array-element-newline': [2, 'consistent'],

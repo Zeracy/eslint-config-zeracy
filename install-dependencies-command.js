@@ -18,7 +18,9 @@ const commandHandler = (command) => {
 
 commandHandler('yarn');
 
-commandHandler('cd jsdoc && yarn');
+commandHandler('cd jsdoc && yarn')
+
+commandHandler('cd jsdoc/required && yarn');
 
 commandHandler('cd json && yarn');
 

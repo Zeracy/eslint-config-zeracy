@@ -2,17 +2,6 @@ module.exports = {
     plugins: [
         'jsdoc',
     ],
-    env: {
-        'shared-node-browser': true,
-        es6: true,
-    },
-    parserOptions: {
-        ecmaVersion: 2020,
-        ecmaFeatures: {
-            jsx: true,
-        },
-        sourceType: 'module',
-    },
     settings: {
         jsdoc: {
             tagNamePreference: {

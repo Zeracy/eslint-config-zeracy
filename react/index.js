@@ -6,16 +6,10 @@ module.exports = {
         'react',
         'react-hooks',
     ],
-    env: {
-        'shared-node-browser': true,
-        es6: true,
-    },
     parserOptions: {
-        ecmaVersion: 2020,
         ecmaFeatures: {
             jsx: true,
         },
-        sourceType: 'module',
     },
     settings: {
         react: {

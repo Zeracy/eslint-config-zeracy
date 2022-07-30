@@ -1,0 +1,12 @@
+{
+  "name": "eslint-config-zeracy-jsdoc-required",
+  "version": "1.0.0",
+  "description": "An eslint config for my own personal projects",
+  "main": "index.js",
+  "author": "Zeracy",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "eslint": "^8.18.0"
+  }
+}
