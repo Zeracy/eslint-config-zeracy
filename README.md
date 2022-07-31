@@ -11,6 +11,8 @@ yarn add --dev https://github.com/Zeracy/eslint-config-zeracy
 
 ## Usage
 
+### eslint
+
 [Shareable configs][config-url] are designed to work with the `extends` feature of `.eslintrc` files.
 
 ```json
@@ -30,8 +32,19 @@ yarn add --dev https://github.com/Zeracy/eslint-config-zeracy
 You can override any rules or settings from the shareable config by adding them directly into your
 `.eslintrc` file.
 
-### Note
+#### Note
 The `eslint-config-` prefix is ommited since it is automatically assumed by ESLint.
+
+### remark-cli
+For markdown support there is a config for remark-cli under the /markdown directory.
+
+```json
+{
+  "plugins": [
+    "eslint-config-zeracy/markdown/index.js"
+  ]
+}
+```
 
 ## License
 
