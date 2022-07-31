@@ -7,7 +7,7 @@
   "author": "Zeracy",
   "main": "index.js",
   "scripts": {
-    "lint:js": "yarn eslint .*",
+    "lint:js": "yarn eslint *",
     "prepare": "husky install"
   },
   "dependencies": {
