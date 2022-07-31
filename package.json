@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-zeracy",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "private": false,
   "description": "An eslint config created from the configs most commonly used on my own personal projects.",
   "license": "MIT",
